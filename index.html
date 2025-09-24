@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juventus FC - Página Oficial</title>
+    <style>
+        /* Reset de márgenes y padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Estilo para el header */
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+
+        header img {
+            width: 120px;
+            margin-top: 10px;
+        }
+
+        /* Navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1B1B1B;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #D0B69A;
+        }
+
+        /* Sección Principal */
+        .hero {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Juventus_FC_Logo_2017.svg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Sección Acerca de la Juventus */
+        .about {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            color: #1B1B1B;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        /* Galería de jugadores destacados */
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .gallery-item {
+            width: 250px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .gallery-item h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #1B1B1B;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1B1B1B;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Juventus FC</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Juventus_FC_Logo_2017.svg/1200px-Juventus_FC_Logo_2017.svg.png" alt="Logo Juventus">
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#gallery">Jugadores</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Bienvenida a la Casa de la Juventus</h2>
+        <p>Un club con historia, pasión y victorias</p>
+    </section>
+
+    <!-- Sección Acerca de la Juventus -->
+    <section class="about" id="about">
+        <h2>Sobre la Juventus</h2>
+        <p>La Juventus Football Club es un club de fútbol profesional italiano fundado en 1897. Se ha ganado el cariño y respeto en todo el mundo, con más de 30 campeonatos de liga, múltiples Copas de Italia y un sinfín de títulos internacionales.</p>
+        <p>Con su icónico uniforme a rayas blancas y negras, la Juventus es conocida por su gran fortaleza defensiva, su capacidad de resiliencia y por ser una de las potencias del fútbol europeo.</p>
+    </section>
+
+    <!-- Galería de Jugadores -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/CR7_Real_Madrid.jpg" alt="Cristiano Ronaldo">
+            <h3>Cristiano Ronaldo</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Del_Piero_2015.jpg" alt="Alessandro Del Piero">
+            <h3>Alessandro Del Piero</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gianluigi_Buffon_2018.jpg" alt="Gianluigi Buffon">
+            <h3>Gianluigi Buffon</h3>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Juventus FC | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
